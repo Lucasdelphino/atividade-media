@@ -34,7 +34,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/projects/pwa_aula/",
+    "start_url": "/GitHub/atividade-media/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#199332"
