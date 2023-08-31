@@ -7,11 +7,24 @@ body{
     font-family: Rubik;
 }
 
+
+
+.pri img{
+    max-width: 30%;
+}
+
+@media(max-width:300px){
+    .pri img{
+        max-width: 200px;
+    }
+}
+
+
 .star img{
     max-width: 50%;
 }
 
-@media(max-width:300px){
+@media(max-width:200px){
     .star img{
         max-width: 200px;
     }
@@ -21,7 +34,7 @@ body{
     max-width: 50%;
 }
 
-@media(max-width:300px){
+@media(max-width:200px){
     .star2 img{
         max-width: 200px;
     }
