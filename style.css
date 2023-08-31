@@ -21,9 +21,9 @@ body{
     max-width: 50%;
 }
 
-@media(max-width:200px){
+@media(max-width:300px){
     .star2 img{
-        max-width: 100px;
+        max-width: 200px;
     }
 }
 
