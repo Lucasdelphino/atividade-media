@@ -8,7 +8,7 @@ body{
 }
 
 .star img{
-    max-width: 400px;
+    max-width: 50%;
 }
 
 @media(max-width:300px){
@@ -18,7 +18,7 @@ body{
 }
 
 .star2 img{
-    max-width: 300px;
+    max-width: 50%;
 }
 
 @media(max-width:200px){
@@ -29,5 +29,5 @@ body{
 
 .cafes{
     display: flex;
-    padding-left: 30%;
+    padding-left: 2%;
 }
