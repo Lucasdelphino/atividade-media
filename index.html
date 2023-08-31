@@ -1,40 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="manifest" href="manifest.webmanifest">
     <meta charset="UTF-8" />
-    <meta content='yes' name='apple-mobile-web-app-capable' />
-    <meta content='yes' name='mobile-web-app-capable' />
-    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
-    <meta name="theme-color" content="black">
-    <link rel="apple-touch-icon" href="assets/logos/icon-192x192-apple.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>  </title>
+    <title> Aroma Cafe </title>
 </head>
 <body>
 
 
+<h1>Aroma café</h1>
+<h2>A cafeteria que vai fazer voçe começar o dia com o pé direito</h2>
 
+<img src="img/cafe.jpg" alt="">
+<p> Venha experimentar o melhor café da região,<br> temos café da starbuck, 3 corações, cabloco, lor entre outros.  </p>
+
+<h2>Starbuck</h2>
+<img src="img/star.jpg" alt="">
 
 
 </body>
-<script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-            if ('serviceWorker' in navigator) {
-                console.log('has serviceworker');
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('serviceWorker.js')
-                        .then((registration) => {
-                            console.log('Service worker registered.', registration);
-                        });
-                });
-            }
-            else {
-                console.log("Your browser not supports serviceWorkers");
-            }
-        });
-    
-    </script>
-
 </html>
